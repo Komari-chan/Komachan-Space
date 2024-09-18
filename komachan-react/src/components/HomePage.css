@@ -1,0 +1,58 @@
+/* src/components/HomePage.css */
+.home-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .site-title {
+    margin-top: 20px;
+    font-size: 3.5rem;
+    color: white; /* 白色字体 */
+    font-family: 'Dancing Script', cursive; /* 使用艺术字体 */
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    transition: color 0.3s;
+  }
+  
+  .social-links a.x-icon {
+    color: black;
+  }
+  
+  .social-links a.github-icon {
+    color: black;
+  }
+  
+  .social-links a.pixiv-icon {
+    color: #00bfff; /* Pixiv图标颜色 */
+  }
+  
+  .social-links a:hover {
+    color: rgba(0, 0, 0, 0.5); /* 悬浮时变淡 */
+  }
+
+  .social-links a.pixiv-icon:hover {
+    color: #00bfff80; /* Pixiv图标颜色 */
+  }
