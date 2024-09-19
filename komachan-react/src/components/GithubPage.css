@@ -1,0 +1,14 @@
+/* src/components/GithubPage.css */
+.github-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .github-page .projects {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
